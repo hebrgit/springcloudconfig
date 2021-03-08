@@ -1,3 +1,15 @@
-config:
-  info: branch master version 1
-   
+spring:
+  profiles:
+    active: 
+    - dev
+
+---
+spring:
+  application:
+    name: config-dept-dev
+  profiles: dev
+---
+spring:
+  application:
+    name: config-dept-test
+  profiles: test
