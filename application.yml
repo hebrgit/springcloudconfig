@@ -3,3 +3,5 @@ server:
 spring:
   application:
     name: config-provider
+config:
+  info: barch master version 1.0
